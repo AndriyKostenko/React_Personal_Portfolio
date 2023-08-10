@@ -1,0 +1,117 @@
+.footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#light .footer {
+    background-color: var(--container-color-light);
+}
+
+#dark .footer {
+    background-color: var(--container-color-dark);
+}
+
+.footer__container {
+    padding: 2rem 0 2rem;
+}
+
+#light .footer__title {
+    color: var(--title-color-dark);
+}
+
+#dark .footer__title {
+    color: var(--title-color-light);
+}
+
+
+.footer__title {
+    text-align: center;
+    margin-bottom: var(--mb-1);
+}
+
+#light .footer__link {
+    color: var(--title-color-dark)
+}
+
+#dark .footer__link {
+    color: var(--title-color-light)
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.5rem;
+    margin-bottom: var(--mb-1);
+}
+
+.footer__social {
+    display: flex;
+    justify-content: center;
+    column-gap: 1.55rem;
+}
+
+.footer__social-link {
+    font-size: 1.125rem;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    display: inline-flex;
+}
+
+#light .footer__social-link {
+    background-color: var(--title-color-dark);
+    color: var(--container-color-light);
+}
+
+#dark .footer__social-link {
+    background-color: var(--title-color-light);
+    color: var(--container-color-dark);
+}
+
+#light .footer__social-link:hover {
+    background-color: var(--title-color-dark);
+    color: var(--container-color-light);
+}
+
+#dark .footer__social-link:hover {
+    background-color: var(--title-color-light);
+    color: var(--container-color-dark);
+}
+
+.footer__copy {
+    display: block;
+    margin-top: 1.5rem;
+    
+    text-align: center;
+    font-size: var(--small-font-size);
+}
+
+#light .footer__copy {
+    color: var(--title-color-dark);
+}
+
+#dark .footer__copy {
+    color: var(--title-color-light);
+}
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .footer__social-link {
+        padding: 0.25rem;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+}
+
+/* For medium devices */
+@media screen and (max-width: 576px) {
+    .footer__container {
+        padding: 0.5rem 0 0.5rem;
+    }
+
+    .footer__title {
+        font-size: var(--h1-font-size);
+    }
+}
+
+
