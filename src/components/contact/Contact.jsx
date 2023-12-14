@@ -99,7 +99,7 @@ const Contact = ({value}) => {
                     </div>
                 </div>
 
-                <div className="contact__content">
+                {/* <div className="contact__content">
                     <h3 className="contact__title">Write me a message</h3>
 
                     
@@ -179,7 +179,7 @@ const Contact = ({value}) => {
                         </button>
 
                     </form>
-                </div>
+                </div> */}
             </div>
         </section>
     )

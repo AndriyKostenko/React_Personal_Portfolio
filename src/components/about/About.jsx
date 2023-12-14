@@ -1,6 +1,6 @@
 import React from "react";
 
-import AboutImg from '../../assets/about.webp';
+import AboutImg from '../../assets/about_me_2.webp';
 import CV from '../../assets/CV_ANDRIY_KOSTENKO.pdf';
 import Info from "./info";
 
@@ -18,7 +18,7 @@ const About = ({value}) => {
                 <div className="about__data">
                   <Info/>
                   <p className="about__description">
-                      Web Developer with 3+ years of experience.
+                      Web Developer with 5+ years of experience.
                       I specialize in building and maintaining the server-side 
                       of web applications using the Python programming language and the front-end side using JavaScript(React).
                       Work with databases, APIs, and web servers to ensure the smooth 

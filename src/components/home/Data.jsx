@@ -4,7 +4,7 @@ import React, { useEffect, useMemo, useState} from "react";
 
 const Data = ({value}) => {
 
-  const [text, setText] = useState("Hi. I'm experienced and creative Web Developer based in Toronto. I help companies to develop and optimize their products according to the latest trends and innovations.")
+  const [text, setText] = useState("I am a web developer with experience in constructing websites for small and medium-sized businesses, incorporating the latest trends and innovations.")
 
   function typingEffect(element, speed) {
     
@@ -84,8 +84,7 @@ const Data = ({value}) => {
 
           <div className="wrapper home__description">
               <p>
-                Hi. I'm experienced and creative Web Developer based in Toronto. 
-                I help companies to develop and optimize their products according to the latest trends and innovations.
+                I am a web developer with experience in constructing websites for small and medium-sized businesses, incorporating the latest trends and innovations.
               </p>
           </div>
 

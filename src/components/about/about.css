@@ -5,9 +5,9 @@
 }
 
 .about__img {
-    width: 410px;
-    height: 410px;
-    border-radius: 1.5rem;
+    /* width: 310px;
+    height: 410px; */
+    /* border-radius: 50%; */
     justify-self: center;
 }
 

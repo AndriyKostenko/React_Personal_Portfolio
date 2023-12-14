@@ -13,7 +13,7 @@ const Backend = () => {
                 
                     <div>
                         <h3 className="skills__name">Python: Django/Flask/FastAPI</h3>
-                        <span className="skills__level">Intermediate</span>
+                        <span className="skills__level">Advanced</span>
                     </div>
                     </div>
 
@@ -39,7 +39,7 @@ const Backend = () => {
                     <i className="bx bx-badge-check"></i>
                     
                     <div>
-                        <h3 className="skills__name">Oper. sys.: Linux</h3>
+                        <h3 className="skills__name">Oper. sys.: Linux, MacOS</h3>
                         <span className="skills__level">Advanced</span>
                     </div>
                     </div>
@@ -50,6 +50,16 @@ const Backend = () => {
 
                     <div>
                         <h3 className="skills__name">VCS: Git</h3>
+                        <span className="skills__level">Advanced</span>
+                    </div>
+                    </div>
+
+                    <div className="skills__data">
+                    <i className="bx bx-badge-check"></i>
+                    
+
+                    <div>
+                        <h3 className="skills__name">Hosting: AWS, Netlify, Heroku</h3>
                         <span className="skills__level">Advanced</span>
                     </div>
                     </div>

@@ -61,40 +61,17 @@ const Qualification = () => {
                                 <span className="qualification__line"></span>
                             </div>
 
-                            <div className="qualification__block">
-                                <h3 className="qualification__title">Python</h3>
-                                <span className="qualification__subtitle">Ukraine - Beetroot Academy</span>
-                                <div className="qualification__calendar">
-                                    <i className="uil uil-calendar-alt"></i>
-                                        2021 - 2022
-                                </div>
 
                         </div>
-                        </div>
 
                         
-
-
-                        
-                   
-
-                        
-
-
-
-
-
-
-
-
-
                         <div className="qualification__data">
                             <div className="qualification__block">
                                 <h3 className="qualification__title">Web developer</h3>
                                 <span className="qualification__subtitle">Ukraine - CodeExpert</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                        2019 - 2021
+                                        2017 - 2021
                                 </div>
                             </div>
 
@@ -108,21 +85,43 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div></div>
-
+                            
                             <div>
                                 <span className="qualification__rounder"></span>
                                 <span className="qualification__line"></span>
                             </div>
 
                             <div className="qualification__block">
+                                <h3 className="qualification__title">Python</h3>
+                                <span className="qualification__subtitle">Ukraine - Beetroot Academy</span>
+                                <div className="qualification__calendar">
+                                    <i className="uil uil-calendar-alt"></i>
+                                        2016 - 2017
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div className="qualification__data">
+                            <div></div>
+                            
+                            <div>
+                                <span className="qualification__rounder"></span>
+                                <span className="qualification__line"></span>
+                            </div>                       
+
+                            <div className="qualification__block">
                                 <h3 className="qualification__title">Marine Navigator</h3>
                                 <span className="qualification__subtitle">Ukraine - Maritime Academy</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
-                                        2010 - 2018
+                                        2010 - 2016
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
             </div>
