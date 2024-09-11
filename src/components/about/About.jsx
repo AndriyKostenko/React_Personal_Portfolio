@@ -20,7 +20,7 @@ const About = ({value}) => {
                   <p className="about__description">
                       Web Developer with 5+ years of experience.
                       I specialize in building and maintaining the server-side 
-                      of web applications using the Python programming language and the front-end side using JavaScript(React).
+                      of web applications using the Python programming language and the front-end side using JavaScript(React.js/Next.js).
                       Work with databases, APIs, and web servers to ensure the smooth 
                       functioning of the application.
                   </p>

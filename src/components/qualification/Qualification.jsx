@@ -29,9 +29,25 @@ const Qualification = () => {
                 <div className="qualification__sections">
 
                     <div className="qualification__content"> 
+                    <div className="qualification__data">
+
+                        <div className="qualification__block">
+                            <h3 className="qualification__title">Full-stack Web developer</h3>
+                            <span className="qualification__subtitle">Canada - PathwayPro</span>
+                            <div className="qualification__calendar">
+                                <i className="uil uil-calendar-alt"></i>
+                                    2024 - 2024
+                            </div>
+                        </div>
+                        <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                        </div>
+                        </div>
+
                         <div className="qualification__data">
                             <div className="qualification__block">
-                                <h3 className="qualification__title">Web developer</h3>
+                                <h3 className="qualification__title">Backend Web developer</h3>
                                 <span className="qualification__subtitle">Ukraine - Meduzzen</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
@@ -48,7 +64,7 @@ const Qualification = () => {
 
                         <div className="qualification__data">
                             <div className="qualification__block">
-                                <h3 className="qualification__title">Web developer</h3>
+                                <h3 className="qualification__title">Full-stack Web developer</h3>
                                 <span className="qualification__subtitle">Ukraine - Freelance</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
@@ -67,7 +83,7 @@ const Qualification = () => {
                         
                         <div className="qualification__data">
                             <div className="qualification__block">
-                                <h3 className="qualification__title">Web developer</h3>
+                                <h3 className="qualification__title">Frontend Web developer</h3>
                                 <span className="qualification__subtitle">Ukraine - CodeExpert</span>
                                 <div className="qualification__calendar">
                                     <i className="uil uil-calendar-alt"></i>
