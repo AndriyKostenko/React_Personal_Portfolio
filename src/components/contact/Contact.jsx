@@ -1,5 +1,5 @@
-import React, { useRef, useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React from 'react';
+//import emailjs from '@emailjs/browser';
 
 import './contact.css';
 
@@ -7,49 +7,49 @@ import './contact.css';
 const Contact = ({value}) => {
 
     //setting input values
-    const [values, setValues] =  useState({
-        name: '',
-        email: '',
-        message: '',
-        buttonText: "Send Message"
-    });
+    // const [values, setValues] =  useState({
+    //     name: '',
+    //     email: '',
+    //     message: '',
+    //     buttonText: "Send Message"
+    // });
 
-    const [focused, setFocused] = useState(false)
+    //const [focused, setFocused] = useState(false)
 
-    const form = useRef();
+    //const form = useRef();
     
-    const errorMessage = {
-        name: 'Name should be more than 2 characters',
-        email: 'Email is not valid',
-        message: 'Message is empty'
-    }
+    // const errorMessage = {
+    //     name: 'Name should be more than 2 characters',
+    //     email: 'Email is not valid',
+    //     message: 'Message is empty'
+    // }
 
-    const handleFocus = () => {
-        setFocused(true);
-    }
+    // const handleFocus = () => {
+    //     setFocused(true);
+    // }
 
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
+    // const handleSubmit = (event) => {
+    //     event.preventDefault();
 
-        emailjs.sendForm('service_w2i0wjs', 'template_s65z8tw', form.current, '8sbKbHp2-XUMRl7lP')
-        .then((result) => {
-                setValues({buttonText:'Sent!'});
-                setFocused(false);
-                event.target.reset();
-                setTimeout(() => setValues({buttonText:'Send Message'}), 5000)
-            }, (error) => {
-                setValues({buttonText: 'Oops...something went wrong. Please contact me in another way. '})
-                setFocused(false);
-                event.target.reset();
-                setTimeout(() => setValues({buttonText:'Send Message'}), 5000);
-            });
+    //     emailjs.sendForm('service_w2i0wjs', 'template_s65z8tw', form.current, '8sbKbHp2-XUMRl7lP')
+    //     .then((result) => {
+    //             setValues({buttonText:'Sent!'});
+    //             setFocused(false);
+    //             event.target.reset();
+    //             setTimeout(() => setValues({buttonText:'Send Message'}), 5000)
+    //         }, (error) => {
+    //             setValues({buttonText: 'Oops...something went wrong. Please contact me in another way. '})
+    //             setFocused(false);
+    //             event.target.reset();
+    //             setTimeout(() => setValues({buttonText:'Send Message'}), 5000);
+    //         });
 
-    }
+    // }
 
-    const onChange = (event) => {
-        setValues({...values, [event.target.name]: event.target.value})
-    }
+    // const onChange = (event) => {
+    //     setValues({...values, [event.target.name]: event.target.value})
+    // }
 
     
         

@@ -1,9 +1,9 @@
-import React, { useEffect, useMemo, useState} from "react";
+import React, { useEffect, useState} from "react";
 
 
 
 const Data = ({value}) => {
-
+  // eslint-disable-next-line
   const [text, setText] = useState("I am a web developer with experience in constructing websites for small and medium-sized businesses, incorporating the latest trends and innovations.")
 
   function typingEffect(element, speed) {

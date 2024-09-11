@@ -2,7 +2,7 @@ import Work1 from '../../assets/work1.webp';
 import Work2 from '../../assets/work2.webp';
 import Work3 from '../../assets/work3.webp';
 import Work4 from '../../assets/work4.webp';
-import Work5 from '../../assets/work5.webp';
+//import Work5 from '../../assets/work5.webp';
 import Work6 from '../../assets/work6.png';
 import Work7 from '../../assets/work7.webp';
 import Work8 from '../../assets/work8.png';
