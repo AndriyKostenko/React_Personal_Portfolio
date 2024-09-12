@@ -1,7 +1,7 @@
 import React from "react";
 
 import AboutImg from '../../assets/about_me_2.webp';
-import CV from '../../assets/CV_ANDRIY_KOSTENKO.pdf';
+import CV from '../../assets/CV_ANDRIY_KOSTENKO_IT.pdf';
 import Info from "./info";
 
 import './about.css';
