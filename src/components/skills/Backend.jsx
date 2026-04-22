@@ -21,12 +21,30 @@ const Backend = () => {
                     <i className="bx bx-badge-check"></i>
                     
                     <div>
-                        <h3 className="skills__name">DB: MySQL/PostgreSQL/MongoDb</h3>
+                        <h3 className="skills__name">DB: PostgreSQL/MongoDb</h3>
+                        <span className="skills__level">Advanced</span>
+                    </div>
+					</div>
+                    
+					<div className="skills__data">
+                    <i className="bx bx-badge-check"></i>
+                    
+                    <div>
+                        <h3 className="skills__name">Caching: Redis</h3>
+                        <span className="skills__level">Advanced</span>
+                    </div>
+					</div>
+                    
+					<div className="skills__data">
+                    <i className="bx bx-badge-check"></i>
+                    
+                    <div>
+                        <h3 className="skills__name">Queues: RabbitMQ</h3>
                         <span className="skills__level">Intermediate</span>
                     </div>
                     </div>
 
-                    <div className="skills__data">
+					<div className="skills__data">
                     <i className="bx bx-badge-check"></i>
                     
                     <div>

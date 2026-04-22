@@ -4,6 +4,7 @@ Currently hosted on Netlify.
 https://andriykostenko.com
 
 1. `git clone https://github.com/AndriyKostenko/React_Personal_Portfolio.git` - copy the proj
+2. `npm install` - install dependencies
 2. `npm start` - start the proj.
 3. `npm run build` - build into production folder
 
