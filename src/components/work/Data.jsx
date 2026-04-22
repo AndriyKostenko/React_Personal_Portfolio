@@ -2,19 +2,39 @@ import Work1 from "../../assets/work1.webp";
 import Work2 from "../../assets/work2.webp";
 import Work3 from "../../assets/work3.webp";
 import Work4 from "../../assets/work4.webp";
-//import Work5 from '../../assets/work5.webp';
 import Work6 from "../../assets/work6.png";
 import Work7 from "../../assets/work7.webp";
 import Work8 from "../../assets/work8.png";
 import Work9 from "../../assets/work9.png";
 import Work10 from "../../assets/work10.png";
 import Work11 from "../../assets/work11.png";
-import Work12 from "../../assets/work12.png";
 import Work13 from "../../assets/work13.png";
-import Work14 from "../../assets/work14.png";
 import Work15 from "../../assets/work_15.jpeg";
+import Work16 from "../../assets/work_16.jpeg";
+import Work22 from "../../assets/work_22.jpeg";
 
 export const projectsData = [
+	{
+		id: 22,
+		image: Work22,
+		title: "Calgary Hair Saloon Website",
+		category: "Front-end",
+		itemRef: "https://hair-saloon-calgary.netlify.app",
+	},
+	{
+		id: 2,
+		image: Work16,
+		title: "Delivery Company",
+		category: "Front-end",
+		itemRef: "https://bucolic-sprite-60dce8.netlify.app",
+	},
+	{
+		id: 4,
+		image: Work13,
+		title: "Babysitters & nannies Website",
+		category: "Back-end",
+		itemRef: "https://www.liitcare.com/en",
+	},
 	{
 		id: 1,
 		image: Work15,
@@ -23,26 +43,12 @@ export const projectsData = [
 		itemRef:
 			"https://github.com/AndriyKostenko/PPE_vis_detect_SkillProject_AI_Kostenko_Andriy",
 	},
-	// {
-	// 	id: 2,
-	// 	image: Work12,
-	// 	title: "Nail Studio Website",
-	// 	category: "Front-end",
-	// 	itemRef: "https://catnailsstudio.com/",
-	// },
 	{
-		id: 3,
-		image: Work14,
-		title: "Personal Portfolio Website",
+		id: 12,
+		image: Work11,
+		title: "Car-Factory Website",
 		category: "Front-end",
-		itemRef: "https://www.dianabruno.com/",
-	},
-	{
-		id: 4,
-		image: Work13,
-		title: "Babysitters & nannies Website",
-		category: "Back-end",
-		itemRef: "https://liit-care-fe.vercel.app/",
+		itemRef: "https://super-alfajores-5be4e4.netlify.app",
 	},
 	{
 		id: 5,
@@ -92,13 +98,6 @@ export const projectsData = [
 		title: "My Own Portfolio Website",
 		category: "Front-end",
 		itemRef: "https://github.com/AndriyKostenko/React_Personal_Portfolio",
-	},
-	{
-		id: 12,
-		image: Work11,
-		title: "Car-Factory Website",
-		category: "Front-end",
-		itemRef: "https://github.com/AndriyKostenko/React_Car_Factory",
 	},
 	{
 		id: 13,
